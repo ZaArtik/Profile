@@ -1,0 +1,72 @@
+/* @font-face {
+    font-family: 'fira_sansbold';
+    src: url('../../fonts/firasans-bold-webfont.woff2') format('woff2'),
+         url('../../fonts/firasans-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fira_sanslight';
+    src: url('../../fonts/firasans-light-webfont.woff2') format('woff2'),
+         url('../../fonts/firasans-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fira_sansmedium';
+    src: url('../../fonts/firasans-medium-webfont.woff2') format('woff2'),
+         url('../../fonts/firasans-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fira_sansregular';
+    src: url('../../fonts/firasans-regular-webfont.woff2') format('woff2'),
+         url('../../fonts/firasans-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@mixin fira($style: 400) {
+    @if $style == 400 {
+        font-family: 'fira_sansregular';
+    }
+    
+    @if $style == bold {
+      font-family: 'fira_sansbold';
+  }
+}
+ */
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Myriad_Pro_Regular';
+    src: url('../fonts/MyriadPro-Regular.eot') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Myriad_Pro_Bold';
+    src: url('../fonts/MyriadPro-Bold.eot') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Bold.woff') format('woff'),
+    url('../fonts/MyriadPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
